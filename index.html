@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Covid 19 Updater</title>
+</head>
+
+<body>
+    <div class="align-items-center text-danger text-lg-center">
+        <h2>COVID 19 LIVE RESULT</h2>
+    </div>
+    <div class="container d-flex flex-lg-row justify-content-around align-items-center m-5">
+
+        <div class="global d-flex flex-lg-column">
+            <label for="">Global</label>
+            <div class="1 d-flex flex-lg-column">
+                <label for="case_global">case</label>
+                <input type="text" name="ca" id="global_case" disabled>
+            </div>
+            <div class="1 d-flex flex-lg-column">
+                <label for="case_global">Death</label>
+                <input type="text" name="ca" id="global_death" disabled>
+            </div>
+            <div class="1 d-flex flex-lg-column">
+                <label for="case_global">Recover</label>
+                <input type="text" name="ca" id="global_recover" disabled>
+            </div>
+        </div>
+        <div class="local">
+            <div class="global d-flex flex-lg-column">
+                <label for="">Ethiopia</label>
+                <div class="1 d-flex flex-lg-column">
+                    <label for="case_global">case</label>
+                    <input type="text" name="ca" id="Local_case" disabled>
+                </div>
+                <div class="1 d-flex flex-lg-column">
+                    <label for="case_global">Death</label>
+                    <input type="text" name="ca" id="Local_death" disabled>
+                </div>
+                <div class="1 d-flex flex-lg-column">
+                    <label for="case_global">Recover</label>
+                    <input type="text" name="ca" id="Local_recover" disabled>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <button class="btn btn-danger w-100 p-3 m-lg-3" id="get_global">Get Global</button>
+    </div>
+    <script src="script/jquery-3.5.1.js"></script>
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
